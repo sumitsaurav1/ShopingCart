@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="./profile.css">
+</head>
+<body>
+    <nav class="nav-container">
+        <div>MeShop</div>
+        <div class="nav-item2">
+            <a href="./shop.html" >
+                <span class="material-symbols-outlined">
+                    home
+                </span>
+            </a>
+            <a href="#">Login</a>
+            <a href="#">SignUp</a>
+            <a href="./cart.html" class="cart">
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+                <p class="digit" id="digit">1</p>
+            </a>
+            <a href="#" id="profile"></a>
+        </div>
+    </nav>
+    <div id="your-profie">
+        
+    </div>
+    <form action="" class="form">
+        <h1>My profile</h1>
+        <input type="text" placeholder="First Name" id="firstName" class="firstName">
+        <input type="text" placeholder="Last Name" id="lastName" class="lastName">
+        <button id="saveInfo">Save Info</button>
+    </form>
+
+    <form action="" class="form">
+        <h1>Edit Password</h1>
+        <input type="password" placeholder="Old Password" id="oldPassword" class="oldPassword">
+        <input type="password" placeholder="New Password" id="newPassword" class="oldPassword">
+        <input type="password" placeholder="Confirm New Password" id="ConNewPassword" class="oldPassword">
+        <button id="changePassword" class="changePassword">Change Password</button>
+        <button id="logout" class="logout">Logout</button>
+
+    </form>
+    <script src="./profile.js"></script>
+</body>
+</html>

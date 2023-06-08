@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-container{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 1rem 2rem;
+}
+
+.nav-item2{
+    display: flex;
+    gap: 2rem;
+}
+.nav-item2 a{
+    text-decoration: none;
+    color: white;
+}
+.index{
+    margin-top: 2rem;
+    padding-left: 1rem;
+    display: flex;
+
+}
+.meshop div{
+    margin-top: .5rem;
+}
+.login,.signup{
+    margin-top:.5rem;
+    padding: .2rem 1.5rem;
+    margin-left: .2rem;
+    cursor: pointer;
+}
+.login{
+    background-color: black;
+    color: white;
+}
